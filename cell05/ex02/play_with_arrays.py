@@ -1,8 +1,5 @@
-list = [2,8,9,48,8,22,12,2]
-fil_list =[]
-for x in list_:
-    if x >= 5:
-        fil_list.append(x+2)
-        print(list_)
-        print(fil_list)
-        
+original_array = [3,5,6,48,8,22,-12,2]
+new_array = [num + 2 for num in original_array if num > 5]
+
+print(original_array)
+print(new_array)
